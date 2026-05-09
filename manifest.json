@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Guardian AI",
+  "version": "0.1.0",
+  "description": "Decentralized fake news detection assistant for Twitter/X.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://x.com/*"
+      ],
+      "js": [
+        "src/content/index.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
