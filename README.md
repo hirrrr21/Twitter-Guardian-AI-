@@ -8,7 +8,8 @@ Decentralized fake news detection project using AI + Web3.
 
 ```text
 Twitter-Guardian-AI-/
-├── manifest.json
+├── public/
+│   └── manifest.json
 └── src/
     └── content/
         └── index.js
@@ -30,6 +31,6 @@ Twitter-Guardian-AI-/
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable **Developer mode**
 4. Click **Load unpacked**
-5. Select your project folder (the folder containing `manifest.json`)
+5. Select your project folder (which now includes `public/manifest.json`)
 6. Open `https://x.com` or `https://twitter.com`
 7. Open DevTools Console and click **🛡️ Verify** on a tweet to see logged tweet text
